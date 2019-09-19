@@ -5,12 +5,16 @@ html,body {
     min-height: 100%;
 }
 
+li {
+  list-style: none;
+}
+
 
 .cabecalho {
     height: 89px;
     opacity: 0.9;
     box-shadow: 1px 3px 23px 0 rgba(15, 12, 12, 0.31);
-    background-color: #fffefe;
+    background-color: #fffefe !important;
   }
 
 .Logo-ClubCar {
@@ -19,21 +23,25 @@ html,body {
   }
 
 .btn-cabecalho {
-    width: 138px;
-    height: 42px;
+    width: 178px !important;
+    height: 42px !important;
     border-radius: 21px !important;
-    background-color: #c74081;
-    color: white;
+    background-color: #00b0db !important;
+    color: white !important;
     border: none !important;
-    padding: 9px;
+    padding: 12px !important;
+    font-family: Ubuntu !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    text-transform: none !important;
   }
-
   
-
-
   .entrar {
-    width: 154px;
-    height: 17px;
+    
     font-family: Ubuntu;
     font-size: 15px;
     font-weight: 500;
@@ -41,7 +49,7 @@ html,body {
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #ffffff;
+    color: #000000;
   }
 
   .btn-quem-somos {
@@ -53,7 +61,7 @@ html,body {
     line-height: normal;
     letter-spacing: normal;
     color: #000000;
-    padding: 15px;
+    padding: 20px;
   }
 
   .menu-clubcar {
@@ -140,6 +148,14 @@ html,body {
 
   }
 
+  .background-secao-2 {
+    background-image: url('../img/fundo-sesao-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+
+  }
+
   .no-padding {
       padding: 0px !important;
   }
@@ -148,6 +164,26 @@ html,body {
     color: #ffffff;
     text-decoration: none;
     
+}
+
+#menu-oficina li a { 
+  color: #000000;
+  text-decoration: none;
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  
+  
+}
+
+#menu-oficina li a:hover {
+  color:#00b0db;
+  
 }
 
 #menu-cliente a { 
@@ -239,4 +275,161 @@ html,body {
   color: #020203;
 }
 
+.Veja-como-funciona {
+  font-family: Ubuntu !important;
+  font-size: 60px !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  color: #0b0b0b !important;
+}
+
+.Simples-passos-para {
+  object-fit: contain !important;
+  font-family: Ubuntu !important;
+  font-size: 28px !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  color: #000000 !important;
+}
+
+.Cadastro {
+  object-fit: contain !important;
+  font-family: Ubuntu !important;
+  font-size: 22px !important;
+  font-weight: bold !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  color: #000000 !important;
+}
+
+.texto-card-secao-2 {
+  object-fit: contain !important;
+  font-family: Ubuntu !important;
+  font-size: 20px !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  color: #000000 !important;
+}
+
+
+.no-border-card {
+  border: none !important;
+  background-color: #f8f9fa00 !important;
+
+}
+
+.Vdeos-sobre {
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.Atendimento {
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.cor-icone {
+  color: #00aed9 !important;
+  margin-right: 6px;
+  margin-bottom: 16px;
+
+}
+
+.Oficina-de-credibili {
+  font-family: Ubuntu;
+  font-size: 60px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0b0b0b;
+  margin-bottom: 13px;
+}
+
+.Fale-com-um-de-nosso {
+  font-family: Ubuntu;
+  font-size: 34px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0b0b0b;
+  margin-top: 44px;
+}
+
+
+
+
+/* footer */
+
+.titulo-rodape {
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+
+.link-rodape li {
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 200;
+font-size: 21px;
+line-height: 24px;
+color: #FFFFFF;
+margin-bottom: 5px;
+
+}
+
+#menu-rodape a { 
+  color: #ffffff !important;
+  text-decoration: none;
   
+}
+
+#menu-rodape a:hover {
+    color:#00aed9 !important;
+    
+}
+
+.Baixe-nosso-app {
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-top: 74px;
+  margin-left: 40px;
+}
