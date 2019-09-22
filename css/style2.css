@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+	
+	
+
+	
+	
+	/*----*****---- << 15. Go To Top >> ----*****----*/
+	
+	#toTop { display:none; text-decoration:none; position:fixed; bottom:20px; right:20px; overflow:hidden; width:60px; height:60px; border:none; text-indent:100%; background:url(../img/iconeFaleConosco.png) no-repeat ; z-index:9999;  }	
+	#toTopHover { background:url(../img/iconeFaleConosco.png) no-repeat  ; width:40px; height:40px; display:block; overflow:hidden; float:left; opacity: 0; -moz-opacity: 0; }	
+	
+	

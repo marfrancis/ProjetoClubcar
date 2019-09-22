@@ -149,10 +149,10 @@ li {
   }
 
   .background-secao-2 {
-    background-image: url('../img/fundo-sesao-2.jpg');
+    background-image: url('../img/ImagemLanding2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed; 
+    background-attachment: scroll; 
 
   }
 
@@ -433,3 +433,78 @@ margin-bottom: 5px;
   margin-top: 74px;
   margin-left: 40px;
 }
+
+.background-secao-6 {
+  background-image: url('../img/ImagemLanding3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll ; 
+}
+
+
+.titulo-depoimento {
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Ubuntu, sans-serif;
+	font-weight: 700;
+	position: relative;
+	
+}
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #00b0db;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+
+.img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.testimonial {
+  padding: 30px 0 10px;
+  text-align: center
+}
+.overview {	
+	font-style: italic;
+}
+ .overview b {
+	text-transform: uppercase;
+	color: #00b0db;
+}
+.carousel-control {
+	width: 40px;
+  
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgb(255, 255, 255);
+    text-shadow: 0 3px 3px #00b0db, 0 0 0 #00b0db;
+}
+
