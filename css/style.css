@@ -441,6 +441,13 @@ margin-bottom: 5px;
   background-attachment: scroll ; 
 }
 
+.background-secao-5 {
+  background-image: url('../img/mapa-secao-5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll ; 
+}
+
 
 .titulo-depoimento {
 	color: #ffffff;
