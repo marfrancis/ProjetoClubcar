@@ -504,9 +504,44 @@ h2::after {
   padding: 30px 0 10px;
   text-align: center
 }
-.overview {	
-	font-style: italic;
+
+.testimonial-oficina {
+  text-align: left;
+  font-family: Ubuntu;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: 3px !important;
 }
+
+
+
+.text-style-1-oficina {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+
+.overview {	
+	object-fit: contain;
+  font-family: Ubuntu;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  
+}
+
+
+
+
  .overview b {
 	text-transform: uppercase;
 	color: #00b0db;
