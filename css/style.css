@@ -150,7 +150,7 @@ li {
   }
 
   .background-secao-2 {
-    background-image: url('../img/ImagemLanding2.jpg');
+    background-image: url('../img/imagemfundo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll; 
@@ -302,6 +302,18 @@ li {
 .Cadastro {
   object-fit: contain !important;
   font-family: Ubuntu !important;
+  font-size: 28px !important;
+  font-weight: bold !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  color: #00b0db !important;
+}
+
+.Passo {
+  object-fit: contain !important;
+  font-family: Ubuntu !important;
   font-size: 22px !important;
   font-weight: bold !important;
   font-style: normal !important;
@@ -310,6 +322,8 @@ li {
   letter-spacing: normal !important;
   color: #000000 !important;
 }
+
+
 
 .texto-card-secao-2 {
   object-fit: contain !important;
@@ -443,7 +457,7 @@ margin-bottom: 5px;
 }
 
 .background-secao-5 {
-  background-image: url('../img/mapa-secao-5.png');
+  background-image: url('../img/mapa-secao-5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll ; 
