@@ -43,7 +43,7 @@ li {
   .entrar {
     
     font-family: Ubuntu;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -54,7 +54,7 @@ li {
 
   .btn-quem-somos {
     font-family: Ubuntu;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -85,10 +85,9 @@ li {
   }
 
   .cadastrar-oficina {
-    margin-right: 47px;
-    height: 17px;
+    margin-right: 23px;
     font-family: Ubuntu;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -120,7 +119,7 @@ li {
     height: 42px;
     border-radius: 26.5px;
     border: solid 1px #000000;
-    background-color: rgba(254, 254, 254, 0.73);
+    background-color: rgba(254, 254, 254, 0.9);
   }
 
   input[type=text] {
@@ -132,11 +131,13 @@ li {
   /* webkit solution */
   ::-webkit-input-placeholder { 
     font-family: FontAwesome;
+    font-weight: 700;
     text-align:center; 
   }
   /* mozilla solution */
   input:-moz-placeholder { 
     font-family: FontAwesome;
+    font-weight: 700;
     text-align:right; 
   }
 
@@ -144,7 +145,7 @@ li {
     background-image: url('../img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed; 
+    background-attachment: scroll; 
 
   }
 
@@ -170,7 +171,7 @@ li {
   color: #000000;
   text-decoration: none;
   font-family: Ubuntu;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -469,6 +470,17 @@ h2::after {
 	right: 0;
 	bottom: -10px;
 }
+
+.titulo-oficinas {
+	color: #000000;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Ubuntu, sans-serif;
+	font-weight: 700;
+	position: relative;
+	
+}
+
 .col-center {
 	margin: 0 auto;
 	float: none !important;
@@ -537,4 +549,121 @@ h2::after {
   border-radius: 10.5px !important;
   background-color: #00b0db !important;
 }
+
+
+.Tem-uma-oficina-Cli {
+  font-family: Ubuntu;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left: 54px;
+}
+
+.Encontrar-uma-oficin {
+  object-fit: contain;
+  font-family: Ubuntu;
+  font-size: 52px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Baixe-o-app-Assim-v {
+  object-fit: contain;
+  font-family: Ubuntu;
+  font-size: 34px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.12;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.Baixe-o-app-Assim-v .text-style-1 {
+  font-weight: bold;
+}
+
+.Saiba {
+  object-fit: contain;
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: -0.4px;
+  color: #00afdb;
+}
+
+.Busque-pela {
+  object-fit: contain;
+  font-family: Ubuntu;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Busque-pela .text-style-1 {
+  font-weight: bold;
+}
+
+.Line-4 {
+  width: 1px;
+  height: 119px;
+  border: solid 1px #ffffff;
+}
+
+.Pode-confiar-Nosso {
+  object-fit: contain;
+  font-family: Ubuntu;
+  font-size: 34px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.12;
+  letter-spacing: -0.49px;
+  color: #ffffff;
+}
+
+.Pode-confiar-Nosso .text-style-1 {
+  font-weight: bold;
+}
+
+.Saiba2 {
+  object-fit: contain;
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: -0.4px;
+  color: #00afdb;
+}
+
+
+.cor-i-oficina {
+  font-size: 38px !important;
+	line-height: 42px !important;
+    position: absolute !important;
+    display: inline-block !important;
+	color: rgb(0, 0, 0) !important;
+    text-shadow: 0 3px 3px #000000, 0 0 0 #666666 !important;
+
+
+
+}
+
 
