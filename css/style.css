@@ -38,6 +38,7 @@ li {
     line-height: normal !important;
     letter-spacing: normal !important;
     text-transform: none !important;
+    box-shadow: none !important;
   }
   
   .entrar {
