@@ -10,7 +10,7 @@ function cadastro(){
         confirmButtonText: 'Navegar pelo site!'
       }).then((result) => {
         if (result.value) {
-            window.location.assign("oficinas.html");
+            window.location.assign("painel.html");
 
         }
       })
