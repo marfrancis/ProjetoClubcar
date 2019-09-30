@@ -716,3 +716,75 @@ h2::after {
 }
 
 
+.bg-cadastro-form {
+
+    background-image: url('../img/ImagemLanding2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll; 
+
+
+}
+
+.passo {
+  font-family: Ubuntu;
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 25px;
+text-align: center;
+
+color: #00AED9;
+}
+
+.cadastro-rapido {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  
+
+}
+
+.cargo {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.botao-cadastro-um {
+  font-family: Ubuntu !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 17px !important;
+  text-align: center !important;
+  border-radius: 21px !important;
+  background-color: #00b0db !important;
+  color: #FFFFFF !important;
+
+}
+
+.form-endereco-cadastro {
+  width: 818px !important;
+  height: 30px;
+  border-radius: 21px !important;
+  border: solid 0.5px #979797 !important;
+  background-color: rgba(254, 255, 255, 0.9) !important;
+}
+
+.indica-senha {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}
+
+
