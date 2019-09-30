@@ -787,4 +787,19 @@ color: #00AED9;
   color: #000000;
 }
 
+.font-dash {
+  font-family: Ubuntu !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  color: #000000 !important;
+  
+
+}
+
+.menu-destaque a:hover {
+  background-color: #00AED9;
+}
+
 
