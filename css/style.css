@@ -824,3 +824,11 @@ color: #00AED9;
 }
 
 
+.font-user {
+  font-family: Ubuntu !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 10px !important;
+
+}
+
