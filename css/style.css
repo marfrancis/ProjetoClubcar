@@ -448,10 +448,11 @@ margin-bottom: 5px;
 }
 
 .background-secao-5 {
-  background-image: url('../img/mapa-secao-5.jpg');
+  background-image: url('../img/secao5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: scroll ; 
+  background-attachment: scroll ;
+  
 }
 
 
@@ -814,8 +815,12 @@ color: #00AED9;
 
 }
 
-.menu-destaque a:hover {
-  background-color: #00AED9;
+.menu-destaque {
+  background-color:white !important;
+}
+
+.menu-destaque :hover {
+  background-color: #C8EEF8 !important;
 }
 
 
