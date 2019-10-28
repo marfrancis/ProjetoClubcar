@@ -26,7 +26,7 @@ li {
     width: 178px !important;
     height: 42px !important;
     border-radius: 21px !important;
-    background-color: #00b0db !important;
+    background-color: #FF2D55 !important;
     color: white !important;
     border: none !important;
     padding: 12px !important;
@@ -821,6 +821,7 @@ color: #00AED9;
 
 .menu-destaque :hover {
   background-color: #C8EEF8 !important;
+  
 }
 
 
